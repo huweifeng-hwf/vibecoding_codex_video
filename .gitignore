@@ -1,0 +1,28 @@
+# 本机与凭证
+.DS_Store
+.env
+.env.*
+!.env.example
+**/_本地凭证/
+
+# 素材与工具缓存：清单仍正常提交
+**/_本地素材/
+**/_缓存/
+**/导出/*
+!**/导出/README.md
+
+# 大体积视听文件通过资产索引引用
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.avi
+*.mp3
+*.wav
+*.flac
+*.aac
+*.m4a
+
+# 剪辑软件临时文件
+*.tmp
+*.autosave

@@ -1,0 +1,42 @@
+资源编号,类别,名称,官方入口,核验依据,许可或条款范围,用途,建议,证据状态,实测状态,核验日期,限制或备注
+M001,叙事研究,DOC,https://aclanthology.org/2023.acl-long.190/,论文摘要,研究资料；引用方法,层级大纲与生成控制,采用方法,原文已读,未复现实验,2026-11-12,不外推为中文长篇质量保证
+M002,叙事研究,Dramatron 专业作者研究,https://deepmind.google/research/publications/13609/,论文说明与作者仓库,研究资料；引用方法,分阶段剧本协作,采用方法,原文已读,未复现实验,2026-11-12,人机协作研究，不是自主创作质量保证
+M003,写作产品实践,Novelcrafter Codex Tracking,https://www.novelcrafter.com/help/docs/codex/codex-tracking,官方帮助,产品文档；学习设计,任务相关上下文与设定跟踪,采用方法,原文已读,未使用产品,2026-11-12,借鉴组织方法，不要求订阅
+M004,制作研究,AnimAgents,https://arxiv.org/abs/2511.17906,论文摘要,研究资料,跨阶段状态和局部迭代,采用方法,摘要已读,未复现实验,2026-11-12,未在本仓库部署多 agent 系统
+M005,制作研究,AnimeAgent,https://arxiv.org/abs/2602.20664,技术报告摘要,研究资料,评审可靠性与连续性,仅参考,摘要已读,未复现实验,2026-11-12,基准结果不代表本剧实际观众
+M006,厂商方法,Runway Gen-4 References,https://help.runwayml.com/hc/en-us/articles/40042718905875-Creating-with-Gen-4-Image-References,官方指南,服务条款另核验,参考角色与场景资产,采用方法,原文已读,未生成媒体,2026-11-12,限定指南版本；一致性需实测
+M007,厂商方法,Runway Gen-4 Video Prompting,https://help.runwayml.com/hc/en-us/articles/39789879462419-Gen-4-Video-Prompting-Guide,官方指南,服务条款另核验,动作提示与逐项迭代,采用方法,原文已读,未生成媒体,2026-11-12,该版本不支持负向提示词
+M008,厂商方法,Seedance 2.0 提示词指南,https://docs.volcengine.com/docs/ark/seedance-2-0-prompt-guide?lang=zh,官方指南,服务及参考素材条款另核验,主体绑定与空间时间表达,采用方法,原文已读,未生成媒体,2026-11-12,按指定版本和输入模式适配
+M009,厂商方法,火山方舟视频生成教程,https://docs.volcengine.com/docs/ark/video-generation-tutorial?lang=zh,官方教程,云服务条款另核验,任务输入和视频生成路线,条件试用,原文已读,未调用 API,2026-11-12,账号能力与费用未实测
+A001,素材,Poly Haven,https://polyhaven.com/license,官方资产许可页,资产 CC0；网站和 API 条款单列,HDRI 材质与物件,优先试用,条款已读,未下载筛选,2026-11-12,不将资产许可扩展为批量抓取许可
+A002,素材,ambientCG,https://docs.ambientcg.com/license/,官方许可页,资产与预览 CC0,材质和场景参考,优先试用,条款已读,未下载筛选,2026-11-12,按具体资产记录版本
+A003,素材,Kenney Development Essentials,https://kenney.nl/assets/development-essentials,指定资源页,指定包 CC0,构图原型和预演,优先试用,指定条目已读,未下载筛选,2026-11-12,不据此代替其他包的许可检查
+A004,素材,Freesound,https://freesound.org/help/faq/,官方 FAQ,逐文件 CC 许可,环境声与拟音,条件试用,条款已读,未下载筛选,2026-11-12,筛选 CC0 或可落实署名的 CC-BY；NC 不默认商业使用
+A005,字体,Noto CJK Sans,https://github.com/notofonts/noto-cjk/blob/main/Sans/LICENSE,Sans/LICENSE,SIL OFL 1.1,中文字幕与片名,优先试用,许可原文已读,未安装排版测试,2026-11-12,保留实际字体版本和许可
+A006,素材,Wikimedia Commons,https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia,官方复用指南,逐文件许可,建筑历史与文化参考,条件试用,条款已读,未选具体文件,2026-11-12,检查作者和单项复用条件
+A007,素材网站,Pexels,https://www.pexels.com/license/,官方许可页,Pexels License,环境空镜与参考,条件试用,条款已读,未下载筛选,2026-11-12,非 CC0；人物背书和再分发等有限制
+A008,素材网站,Pixabay,https://pixabay.com/service/license-summary/,官方许可摘要,Pixabay Content License；全文使用前核验,图片音乐音效与空镜,条件试用,摘要已读,未下载筛选,2026-11-12,未改动独立再分发等有限制
+A009,素材网站,Mixkit,https://mixkit.co/license/,官方许可分类入口,按类型与 Free/Restricted 分项,音乐音效与视频模板,条件试用,分类入口已读,未核验具体分项,2026-11-12,未核验分项的文件不进入交付
+R001,开源研究,Dramatron,https://github.com/google-deepmind/dramatron,README 与 LICENSE,代码 Apache-2.0；其他材料 CC-BY 4.0,层级协作设计,仅参考,原文与许可已读,未运行,2026-11-12,Colab 语言模型接口需要自接
+R002,开源研究,DOC story generation,https://github.com/yangkevin2/doc-story-generation,README 与 LICENSE,MIT,详细大纲控制研究,仅参考,原文与许可已读,未运行,2026-11-12,旧研究依赖和模型需重新适配
+R003,工作流,ComfyUI,https://github.com/Comfy-Org/ComfyUI,README 与 LICENSE,代码 GPL-3.0；模型节点另核验,可复用生成图工作流,条件试用,原文与许可已读,未安装运行,2026-11-12,本机硬件和目标模型未实测
+R004,工作流,Comfy 官方工作流模板,https://github.com/Comfy-Org/workflow_templates,README 与 LICENSE,模板仓库 MIT,发现与研究工作流,优先试用,原文与许可已读,未执行工作流,2026-11-12,模板许可不覆盖模型与外部节点
+R005,视频模型,Wan2.2,https://github.com/Wan-Video/Wan2.2,README 与 LICENSE.txt,Apache-2.0；具体组件另核验,文生视频与图生视频,条件试用,原文与许可已读,未下载推理,2026-11-12,GPU 要求按任务与模型卡核验
+R006,视频模型,LTX-Video,https://github.com/Lightricks/LTX-Video,README License 段与 LICENSE,代码 Apache-2.0；权重独立 Community License,关键帧和可控视频路线,条件试用,原文与代码许可已读,未下载推理,2026-11-12,实际 checkpoint 条款待确认
+R007,语音模型,CosyVoice,https://github.com/FunAudioLLM/CosyVoice,README 与 LICENSE,仓库 Apache-2.0；权重和声音另核验,中文与多语配音,条件试用,原文与代码许可已读,未下载推理,2026-11-12,不预设参考声音的使用权
+R008,语音模型,GPT-SoVITS,https://github.com/RVC-Boss/GPT-SoVITS,README 与 LICENSE,代码 MIT；组件和声音另核验,少样本中文配音路线,条件试用,原文与代码许可已读,未下载推理,2026-11-12,声音授权与演技需分别验证
+R009,语音模型,F5-TTS,https://github.com/SWivid/F5-TTS,README License 段与 LICENSE,代码 MIT；公开预训练模型 CC-BY-NC,语音生成研究,暂缓,原文与许可已读,未下载推理,2026-11-12,不纳入默认商业制作
+R010,字幕工具,faster-whisper,https://github.com/SYSTRAN/faster-whisper,README 与 LICENSE,MIT；实际权重另核验,转写与时间戳,条件试用,原文与许可已读,未安装运行,2026-11-12,字幕仍需对照正式对白校对
+R011,剪辑交换,OpenTimelineIO,https://github.com/AcademySoftwareFoundation/OpenTimelineIO,README 与 LICENSE.txt,Apache-2.0；适配器另核验,时间线与外部媒体引用,条件试用,原文与许可已读,未安装往返测试,2026-11-12,不内含媒体；不等于渲染器
+R012,分镜工具,Storyboarder,https://github.com/wonderunit/storyboarder,README,仓库许可未确认,分镜预演与 Fountain 导入,仅参考,README 已读,未安装运行,2026-11-12,未定位明确 LICENSE；维护兼容性待查
+R013,媒体 CLI,FFmpeg/ffprobe,https://ffmpeg.org/ffprobe.html,官方命令文档与 legal 页面,依构建配置确定,媒体参数与技术检查,优先试用,官方文档已读,PATH 未找到；未实测,2026-11-12,技术检测不等于艺术质量验收
+R014,剧本格式,Fountain,https://fountain.io/syntax/,官方语法,格式文档；具体实现许可另查,剧本交换与阅读稿,条件试用,原文已读,未做中文导出测试,2026-11-12,保持原剧本为正式来源
+R015,短剧 CLI,manju-tool,https://github.com/Bowen-studying/manju-tool,README/LICENSE/KNOWN_LIMITATIONS/pyproject,MIT,结构化剧本分镜和素材交接,优先试用,原文与许可已读,未安装或调用 API,2026-11-12,依赖未锁定；作者说明实测边界
+R016,短剧工作室,huobao-drama,https://github.com/chatfire-AI/huobao-drama,README 与 LICENSE,CC-BY-NC-SA 4.0,流程与任务架构研究,仅参考,原文与许可已读,未部署,2026-11-12,不纳入默认商业生产栈
+R017,短剧工作室,waoowaoo,https://github.com/waooAI/waoowaoo,README 与 LICENSE,Elastic License 2.0,资产和异步制作流程研究,条件试用,原文与许可已读,未部署,2026-11-12,与旧合集许可描述不同；按实际版本核验
+R018,程序化合成,Remotion,https://github.com/remotion-dev/remotion,README 与 LICENSE.md,专用 Remotion License,图文版式与合成,条件试用,原文与许可已读,未安装运行,2026-11-12,部分公司使用场景需商业许可
+S001,外部技能,drama-skills,https://github.com/zenstory-ai/drama-skills,README/LICENSE/原著分析与审查 SKILL.md,MIT,阶段交接与可定位评审,仅参考,技能正文与许可已读,未安装未运行,2026-11-12,目录和状态体系不同，不能直接替换本仓库
+S002,外部技能,creative-writing-skills,https://github.com/haowjy/creative-writing-skills,README/LICENSE/story-memory/story-review,Apache-2.0,故事记忆与分层评审,仅参考,技能正文与许可已读,未安装未运行,2026-11-12,有独立项目与代理体系；只提炼方法
+S003,外部技能,adapting-novels-to-screenplays,https://github.com/almakamberi/adapting-novels-to-screenplays,README 与 LICENSE,MIT,改编取舍与来源记录,仅参考,说明与许可已读,未完整执行技能,2026-11-12,限定电影长片，不包含电视剧分集和分镜
+S004,技能发现 CLI,Vercel skills,https://github.com/vercel-labs/skills,README/LICENSE/实际 find 命令,MIT,公开社区技能发现,采用工具,原文与许可已读,已执行公开检索,2026-11-12,没有据安装量判断内容质量
+D001,技能宿主,Codex Build skills,https://learn.chatgpt.com/docs/build-skills,官方技能文档,产品文档,仓库级技能发现与组织,采用方法,原文已读,本仓库结构另行检查,2026-11-12,.agents/skills 为仓库级位置
